@@ -1,0 +1,63 @@
+/* navbar */
+.navbar {
+    transition: all 0.5;
+}
+.navbar-scrolled {
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.nav-link {
+    position: relative;
+}
+
+/* #about {
+    animation: fade-up 5.5s;
+} */
+/* about */
+#about h1 {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 601px) {    
+    #header h5{
+        font-size: 3rem;
+    }
+    #about p {
+        font-size: 1.25rem;
+    }
+
+}
+
+/* projets */
+#projects {
+    padding-top: 7rem;
+}
+@media screen and (max-width: 601px) {
+    #header h6{
+        font-size: 10px;
+    }
+    #header button{
+        font-size: 15px;
+    }
+    #about {
+        padding-top: 5.5rem;
+    }
+    #projects {
+        padding-top: 6rem;
+    }
+    #projects .row-satu {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        /* line-height: 1rem; */
+    }
+    #projects .card-body{
+        /* align-items: center; */
+        text-align: center;
+    }
+    #projects a{
+        display: flex;
+        justify-content: center;
+    }
+}
